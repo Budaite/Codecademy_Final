@@ -57,14 +57,16 @@ header {
 }
 .banner-right {
     width: 40%;
-    margin-left: 24px;
+    padding-left: 24px;
     color: #202020;
 }
 .banner-right h1 {
     font-size: 52px;
+    padding-bottom: 32px;
 }
 .banner-right h3 {
     font-size: 24px;
+    padding-bottom: 24px;
 }
 .banner-right button {
     background-color: #333533;
@@ -212,4 +214,50 @@ footer {
 .footer-meniu a {
     text-decoration: none;
     color:#202020;
+}
+@media only screen and (max-width: 768px) {
+    .banner-left {
+        width: 100%;
+    }
+    .banner-right {
+        width: calc(100% - 32px);
+        padding: 0 16px;
+        padding-bottom: 32px;
+}
+.learn .container {
+    display: block;
+}
+.banner-left img {
+    padding-top: 0;
+    
+}
+.practice-left {
+    display: none;
+}
+.practice-right > div {
+ border-bottom: none;
+}
+.practice-right {
+    border: none;
+}
+.courses {
+    width: 100%;
+    display: block;
+    width: calc(100% - 32px);
+    padding: 0 16px;
+}
+.courses div {
+    margin-bottom: 16px;
+}
+.image-info {
+    display: none;
+}
+.video {
+    width: 100%;
+    width: calc(100% - 32px);
+    padding: 0 16px;
+}
+.last-flex {
+    display: block;
+}
 }
