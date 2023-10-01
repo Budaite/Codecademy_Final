@@ -1,0 +1,35 @@
+html, span, p, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 64px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span {
+    font-weight: 700;
+    color: #495057;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 32px;
+}
+.logo p {
+    text-transform: uppercase;
+    color: #6c757d;
+}
+.meniu a {
+    text-decoration: none;
+    color: #495057;
+}
+.meniu li {
+    list-style: none;
+    display: inline-block;
+    text-indent: 16px;
+}
