@@ -203,3 +203,13 @@ header {
     font-size: 16px;
     padding-bottom: 15px;
 }
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    border-top: 1px solid black;
+}
+.footer-meniu a {
+    text-decoration: none;
+    color:#202020;
+}
