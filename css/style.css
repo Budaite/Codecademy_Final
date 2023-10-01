@@ -155,3 +155,51 @@ header {
 .courses .category {
     text-transform: uppercase;
 }
+.fourth-container {
+    padding-bottom: 32px;
+}
+.fourth-container h2 {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 30px;
+}
+.last-flex {
+    display: flex;
+}
+.video {
+    width: 60%;
+    padding: 0 24px;
+}
+.image-info {
+    width: 40%;
+}
+.video-content span {
+    display: block;
+    padding-top: 24px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.video-content p {
+    padding-top: 8px;
+}
+.image-info div:hover {
+    background-color:#6c757d;
+
+}
+.image-info > div {
+    display: flex;
+    align-items: center;
+}
+.image-info img {
+    width: 35%;
+    padding: 16px;
+}
+.image-info .info {
+    width: 65%;
+}
+.info .name {
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
