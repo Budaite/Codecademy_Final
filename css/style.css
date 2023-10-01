@@ -1,6 +1,7 @@
 html, span, p, body, h1, h2, h3 {
     margin: 0;
     padding: 0;
+    font-family: verdana;
 }
 header {
     height: 64px;
@@ -117,4 +118,40 @@ header {
 }
 .practice-right a {
     text-decoration: none;
+}
+.third-container {
+    background-color: #adb5bd;
+    padding-bottom: 32px;
+}
+.learning h2 {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 30px;
+}
+.courses .name {
+    font-weight: 700;
+    font-size: 20px;
+}
+.courses {
+ display: grid;
+ grid-template-columns: repeat(3, auto);
+ column-gap: 32px;
+ row-gap: 32px;
+ padding: 0 48px;
+}
+.courses > div {
+    background-color: white;
+}
+.courses img {
+    width: 100%;
+}
+.courses div div {
+    padding: 16px;
+}
+.courses p {
+    padding-bottom: 8px;
+}
+.courses .category {
+    text-transform: uppercase;
 }
